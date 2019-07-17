@@ -488,97 +488,97 @@
   {
     "clas":81,
     "move":1,
-    "label":"STAR",
-    "name":"B-STAR"
-  },
-  {
-    "clas":82,
-    "move":2,
-    "label":"STAR",
-    "name":"I-STAR"
-  },
-  {
-    "clas":83,
-    "move":3,
-    "label":"STAR",
-    "name":"L-STAR"
-  },
-  {
-    "clas":84,
-    "move":4,
-    "label":"STAR",
-    "name":"U-STAR"
-  },
-  {
-    "clas":85,
-    "move":1,
-    "label":"PLAN",
-    "name":"B-PLAN"
-  },
-  {
-    "clas":86,
-    "move":2,
-    "label":"PLAN",
-    "name":"I-PLAN"
-  },
-  {
-    "clas":87,
-    "move":3,
-    "label":"PLAN",
-    "name":"L-PLAN"
-  },
-  {
-    "clas":88,
-    "move":4,
-    "label":"PLAN",
-    "name":"U-PLAN"
-  },
-  {
-    "clas":89,
-    "move":1,
-    "label":"PARA",
-    "name":"B-PARA"
-  },
-  {
-    "clas":90,
-    "move":2,
-    "label":"PARA",
-    "name":"I-PARA"
-  },
-  {
-    "clas":91,
-    "move":3,
-    "label":"PARA",
-    "name":"L-PARA"
-  },
-  {
-    "clas":92,
-    "move":4,
-    "label":"PARA",
-    "name":"U-PARA"
-  },
-  {
-    "clas":93,
-    "move":1,
     "label":"LONG",
     "name":"B-LONG"
   },
   {
-    "clas":94,
+    "clas":82,
     "move":2,
     "label":"LONG",
     "name":"I-LONG"
   },
   {
-    "clas":95,
+    "clas":83,
     "move":3,
     "label":"LONG",
     "name":"L-LONG"
   },
   {
-    "clas":96,
+    "clas":84,
     "move":4,
     "label":"LONG",
     "name":"U-LONG"
+  },
+  {
+    "clas":85,
+    "move":1,
+    "label":"STAR",
+    "name":"B-STAR"
+  },
+  {
+    "clas":86,
+    "move":2,
+    "label":"STAR",
+    "name":"I-STAR"
+  },
+  {
+    "clas":87,
+    "move":3,
+    "label":"STAR",
+    "name":"L-STAR"
+  },
+  {
+    "clas":88,
+    "move":4,
+    "label":"STAR",
+    "name":"U-STAR"
+  },
+  {
+    "clas":89,
+    "move":1,
+    "label":"PLAN",
+    "name":"B-PLAN"
+  },
+  {
+    "clas":90,
+    "move":2,
+    "label":"PLAN",
+    "name":"I-PLAN"
+  },
+  {
+    "clas":91,
+    "move":3,
+    "label":"PLAN",
+    "name":"L-PLAN"
+  },
+  {
+    "clas":92,
+    "move":4,
+    "label":"PLAN",
+    "name":"U-PLAN"
+  },
+  {
+    "clas":93,
+    "move":1,
+    "label":"PARA",
+    "name":"B-PARA"
+  },
+  {
+    "clas":94,
+    "move":2,
+    "label":"PARA",
+    "name":"I-PARA"
+  },
+  {
+    "clas":95,
+    "move":3,
+    "label":"PARA",
+    "name":"L-PARA"
+  },
+  {
+    "clas":96,
+    "move":4,
+    "label":"PARA",
+    "name":"U-PARA"
   }
 ]
