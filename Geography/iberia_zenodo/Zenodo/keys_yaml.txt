@@ -1,0 +1,20 @@
+---
+Keys:
+  ID: identification number of a part of the catalogue
+  book_ID: book's number
+  category: category of a locality
+  chap_ID: chapter's number
+  chapters: part of a book
+  coord: geographical coordinate
+  fraction: fractional part of the coordinate
+  integer: integer part of the coordinate
+  lat: latitude
+  long: longitude
+  people: name of ancient people
+  sec_ID: section's number
+  sec_part: part of a section
+  section: part of a chapter
+  text: Greek text
+  toponym: ancient locality's name
+  type: type of a section's part
+  type_sec: type of a section

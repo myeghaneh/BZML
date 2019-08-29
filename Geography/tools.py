@@ -8,13 +8,13 @@ from bokeh.models import HoverTool,BoxZoomTool,ResetTool, WheelZoomTool,Legend, 
 from bokeh.layouts import row, gridplot, layout
 
 class Geography(object):
-    def __init__(self,fs_dict,gs_dict,df_dict,title=None):
+    def __init__(self,fs_dict,gs_dict,df_dict,select_recension=None):
         self.fs_dict=fs_dict
         self.gs_dict=gs_dict
         self.df_dict=df_dict
-        self.title=title
+        self.select_recension=select_recension
 
-    def _plot_recension(self,fs_dict,gs_dict,df_dict,title):
+    def plot_recension(self,fs_dict,gs_dict,df_dict,select_recension):
         
         """This function returns the map based on the entered values as follows:
         fs_dic ~ dictiornay of  coastal localities in Omega  -->dict
@@ -24,8 +24,8 @@ class Geography(object):
         pay attention to capitalization 
         """
         
-        p = figure(title=self.title, width=1000, height=800, x_range=(1.5, 22), y_range=(35.5, 47))
-        if title== 'Omega':
+        p = figure(title=self.select_recension, width=1000, height=800, x_range=(1.5, 22), y_range=(35.5, 47))
+        if select_recension== 'Omega':
             for i in self.fs_dict.values():
                 p.line(i[:,0],i[:,1], color="grey")
                 inn_1=p.line([4.083,6.333,9,12], [37.667,39,39,37.25], line_alpha=0.8, color="grey")
@@ -33,7 +33,7 @@ class Geography(object):
                 inn_3=p.line([15,17,19,20.333], [45.833,43,43.167,42.333], line_alpha=0.8, color="grey")
                 co="dfTemp"
                 p.circle(np.array(self.df_dict[co]['longitude']),np.array(self.df_dict[co]['latitude']), fill_color="blue",size=6, fill_alpha=.9, line_color="blue",line_alpha=0.6)
-        elif title== 'Xi':
+        elif select_recension== 'Xi':
             for i in self.gs_dict.values():
                 p.line(i[:,0],i[:,1], color="grey")
                 inn_1=p.line([4.083,6.333,9,12], [37.667,39,39,37.25], line_alpha=0.8, color="grey")
@@ -43,7 +43,7 @@ class Geography(object):
                 p.circle(np.array(self.df_dict[co]['longitude']),np.array(self.df_dict[co]['latitude']), fill_color="red",size=6, fill_alpha=.9, line_color="red",line_alpha=0.6)
         show(p)
 
-    def _plot_compare_recension(self,fs_dict,gs_dict,df_dict):
+    def plot_compare_recension(self,fs_dict,gs_dict,df_dict):
         
         """This function returns the comparsion map based on the entered values as follows:
         fs_dic ~ dictiornay of all coastal localities in Omega
@@ -64,9 +64,8 @@ class Geography(object):
         IbEq = c[c["longitude"]==c["longitude"]]
         IbEq = IbEq[IbEq["latitude"]==IbEq["latitude"]]
         r = figure(title='Comparison between Xi (red) and Omega (blue)', width=1000, height=800, x_range=(1.5, 22), y_range=(35.5, 47))
-        r.circle(np.array(IbEq["longitude"]),np.array(IbEq["latitude"]), size=5.5,fill_color='lightgrey', fill_alpha=1, line_color='lightgrey',line_alpha=0.8,legend="Same coordinate (Xi         and Omega)")
-        r.segment(x0=c["longitude"], y0=c["latitude"], x1=c["longitude"],
-                      y1=c["latitude"], color="grey", line_width=1)
+        r.circle(np.array(IbEq["longitude"]),np.array(IbEq["latitude"]), size=5.5,fill_color='lightgrey', fill_alpha=1, line_color='lightgrey',line_alpha=0.8,legend="Same coordinate (Xi and Omega)")
+        #r.segment(x0=c["longitude"], y0=c["latitude"], x1=c["longitude"],y1=c["latitude"], color="grey", line_width=1)
             # Xi 
         r.circle(np.array(self.df_dict['dfTempX']["longitude"]),np.array(self.df_dict['dfTempX']["latitude"]), size=5,fill_color='red', fill_alpha=.7,                         line_color='Crimson',line_alpha=0,legend="Different coordinate (Xi)")
         for i in self.gs_dict.values():
@@ -87,7 +86,7 @@ class Geography(object):
 
         show(r);
 
-    def _plot_border_compare_recension(self,fs_dict,gs_dict,df_dict):
+    def plot_border_compare_recension(self,fs_dict,gs_dict,df_dict):
         
         """This function returns the comparsion map based on the entered values as follows:
         fs_dic ~ dictiornay of all coastal localities in Omega -->dict
@@ -108,6 +107,7 @@ class Geography(object):
         IbEq2 = k[k["longitude"]==k["longitude"]]
         IbEq2 = IbEq2[IbEq2["latitude"]==IbEq2["latitude"]]
         r = figure(title='Iberian peninsula: Comparison between Xi (red) and Omega (blue)', width=1000, height=800, x_range=(1.5, 22), y_range=(35.5, 47) )
+            # Xi 
 
             #r.circle(np.array(IbEq["longitude_Xi"]),np.array(IbEq["latitude_Xi"]), size=5.5,fill_color='lightgrey', fill_alpha=1, line_color='lightgrey',line_alpha=0.8)
             #r.segment(x0=c["longitude_Xi"], y0=c["latitude_Xi"], x1=c["longitude_Omega"],
