@@ -1,6 +1,3 @@
-# BZML
-here you can find notebooks related to the machine learning projects
-
 
 The aim of this project is improving the content analysis of ancient texts and books. We have used different state of the art machine learning and deep learning approach for this aim.  
 In this repository, you can find a refined named entity recognition (NER) model using spaCy which can annotate these labels:
