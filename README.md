@@ -5,12 +5,12 @@ The aim of this project is improving the content analysis of ancient texts and b
 
 In this repository, you can find a refined named entity recognition (NER) model using spaCy which can annotate these labels:
 <ul>
-<li>LONG: The longitude and Coordinate in Different Formats</li> 
+<li>LONG: Longitude and Coordinate in Different Formats</li> 
 <li>PARA: Numerical Parameters</li> 
-<li>ASTR:Astronomical Names</li> 
+<li>ASTR: Astronomical Names</li> 
 <li>DATE: Date in Different Formats </li>
-<li>TIME:Time in Different Format </li>
-<li>STAR: Stars's Names </li>
+<li>TIME: Time in Different Format </li>
+<li>STAR: Names of Stars </li>
 <li>PLAN: Planet's Names </li>
 <li>NAME: Names of People and Places </li>
 </ul>
