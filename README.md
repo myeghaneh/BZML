@@ -13,7 +13,7 @@ In this repository, you can find a refined named entity recognition (NER) model 
 <li>STAR: Names of Stars </li>
 <li>PLAN: Planet's Names </li>
 <li>NAME: Names of People and Places </li>
- <li>GEOM: Geometrical Shapes </li>
+ <li>GEOM: Geometric Shapes </li>
 </ul>
  
 ![annotation_update_bert_04](https://user-images.githubusercontent.com/43270094/65961285-1fc09a00-e40b-11e9-9dd9-1f25f72c37f7.JPG)
