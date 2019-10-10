@@ -22,4 +22,7 @@ Moreover, you can find the automatic classification of observational sentences i
 ![WORDCLUD](https://user-images.githubusercontent.com/43270094/65960891-4d591380-e40a-11e9-8fce-331950f18abe.jpg)
 
 
-Regarding the dependency, you need to have spacy 2.1.8, scikit-learn 0.21.2. We recommend jupyterlab  1.1.3       
+Regarding the dependency, you need to have spacy 2.1.8, scikit-learn 0.21.2. We recommend jupyterlab  1.1.3 . Alternatively you can install 
+dependencies by running:
+$pip install -r requirements.txt
+
