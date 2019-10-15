@@ -1,7 +1,7 @@
 
 The aim of this project is improving the content analysis of ancient texts and books. We have used different state of the art machine learning and deep learning approach for this aim.  
 
-![word001](https://user-images.githubusercontent.com/43270094/65962409-76c76e80-e40d-11e9-85dd-b64b984b92a7.png)
+![photo_2019-07-05_18-56-01](https://user-images.githubusercontent.com/43270094/66849384-a60cce00-ef2b-11e9-9b17-05f8b221477e.jpg)
 
 In this repository, you can find a refined named entity recognition (NER) model using spaCy which can annotate these labels:
 <ul>
