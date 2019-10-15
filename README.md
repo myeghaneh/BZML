@@ -15,7 +15,8 @@ In this repository, you can find a refined named entity recognition (NER) model 
  <li>GEOM: Geometric Shapes </li>
 </ul>
  
-![photo_2019-07-05_18-56-01](https://user-images.githubusercontent.com/43270094/66849384-a60cce00-ef2b-11e9-9b17-05f8b221477e.jpg)
+![annotation_update_bert_06](https://user-images.githubusercontent.com/43270094/66849737-4236d500-ef2c-11e9-93bd-9054ec6f95c2.JPG)
+
 
 Moreover, you can find the automatic classification of observational sentences in Kepler's book "Astronomia nova" using state of the art machine learning methods and NER.
 ![WORDCLUD](https://user-images.githubusercontent.com/43270094/65960891-4d591380-e40a-11e9-8fce-331950f18abe.jpg)
