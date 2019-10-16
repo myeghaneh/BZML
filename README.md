@@ -1,5 +1,6 @@
 
 The aim of this project is improving the content analysis of ancient texts and books. We have used different state of the art machine learning and deep learning approach for this aim.  
+![FrequencyplotAstronomia](https://user-images.githubusercontent.com/43270094/66909821-457ca000-efc2-11e9-869c-7081e15ab2e9.png)
 
 ![word001](https://user-images.githubusercontent.com/43270094/66849589-fb48df80-ef2b-11e9-8b1f-c4d46225020f.png)
 In this repository, you can find a refined named entity recognition (NER) model using spaCy which can annotate these labels:
