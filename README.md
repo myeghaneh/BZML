@@ -1,5 +1,5 @@
 
-he aim of this project is improving the content analysis of ancient texts and books using state of the art information extraction techniques empowered by machine learning and deep learning
+The aim of this project is improving the content analysis of ancient texts and books using state of the art information extraction techniques empowered by machine learning and deep learning
 ![FrequencyplotAstronomia](https://user-images.githubusercontent.com/43270094/66916874-0c97f780-efd1-11e9-8d8f-0ddb1b230ff4.png)
 
  We have done a  several preprocessing step for preparing the data and extracting useful information 
