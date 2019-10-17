@@ -82,8 +82,9 @@
 \begin_body
 
 \begin_layout Title
-Classification of Observational Data in Astronomia Nova Using Named Entities
- with Custom Named Entity Recognition by Bert
+Refined Name Enitiy Recognition (NER) by A Customized SpaCy Model and Pattern
+ RegEx Rules , Automatic recognition and classification of observational
+ sentences in "Astronomia nova" using NER
 \end_layout
 
 \begin_layout Author
@@ -96,7 +97,7 @@ October 2019
 
 \begin_layout TitleGraphic
 \begin_inset Graphics
-	filename D:/final Bimos/Study/phasmafood/sh2g0m7t_400x400.jpg
+	filename C:/Projects_28_06/notebooks/yeghaneh/BZML_OCT/images/annotation_update_bert_06.JPG
 	lyxscale 30
 	scale 10
 
@@ -158,7 +159,7 @@ status collapsed
 status open
 
 \begin_layout Plain Layout
-Signfi
+NER
 \end_layout
 
 \end_inset
@@ -336,57 +337,18 @@ Difficulty and Challenges
 
 \begin_deeper
 \begin_layout Itemize
-The number of sign gestures is large, we face with 
-\series bold
-multi-class classification
-\series default
- with 
-\begin_inset Flex Bold
-status open
-
-\begin_layout Plain Layout
-huge 
-\end_layout
-
-\end_inset
-
-number of class
+Noisy and inconsistent text data.
 \end_layout
 
 \begin_layout Itemize
-Many different sign gestures are really 
-\series bold
-similar.
+Time consuming and tedious manual modification of annotation.
 \end_layout
 
 \begin_layout Itemize
-Many sign gestures might involve complex and diverse 
-\series bold
-movements.
+Unavailability of training data and research paper in the domain.
 \end_layout
 
 \begin_layout Itemize
-CSI data is 
-\begin_inset Flex Bold
-status open
-
-\begin_layout Plain Layout
-high
-\end_layout
-
-\end_inset
-
-
-\begin_inset Flex Bold
-status open
-
-\begin_layout Plain Layout
- dimensional.
-\end_layout
-
-\end_inset
-
-
 \begin_inset Float figure
 wide false
 sideways false
@@ -466,7 +428,15 @@ In this report we want to communicate what we have already done including:
 
 \begin_deeper
 \begin_layout Itemize
-Visualizing the data in an informative and
+
+\series bold
+Prepossessing
+\series default
+ and preparation of text data for classification
+\end_layout
+
+\begin_layout Itemize
+Information extraction in an informative and
 \series bold
  interactive 
 \series default
@@ -474,47 +444,20 @@ way
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
-Prepossessing
-\series default
- and preparation of data for classification 
+Introducing a refined named entity recognition (NER) model using deep learning
 \end_layout
 
 \begin_layout Itemize
-Using a different state of the art
-\begin_inset Flex Bold
-status open
-
-\begin_layout Plain Layout
- deep learning 
-\end_layout
-
-\end_inset
-
-models and describe the result
+evaluation of model using gold standard data
 \end_layout
 
 \begin_layout Itemize
-Using a different state of the art machine 
-\begin_inset Flex Bold
-status open
-
-\begin_layout Plain Layout
-learning models
-\end_layout
-
-\end_inset
-
- and describe the result 
+Using machine learning and deep learning methods for text classification
 \end_layout
 
 \begin_layout Itemize
-Comparing and ensemble the models
-\end_layout
-
-\begin_layout Itemize
-Proposing some ideas for the future work
+Proposing some ideas for the future work toward relation extraction and
+ causal inference
 \end_layout
 
 \end_deeper

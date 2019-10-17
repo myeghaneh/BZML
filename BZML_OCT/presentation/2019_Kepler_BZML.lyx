@@ -83,16 +83,11 @@
 
 \begin_layout Title
 Refined Name Enitiy Recognition (NER) by A Customized SpaCy Model and Pattern
- RegEx Rules , Automatic recognition and classification of observational
- sentences in "Astronomia nova" using NER
+ RegEx Rules 
 \end_layout
 
 \begin_layout Author
-Moha Yeghaneh
-\end_layout
-
-\begin_layout Date
-October 2019
+Moha Yeghaneh,October 2019
 \end_layout
 
 \begin_layout TitleGraphic
