@@ -27,7 +27,7 @@ you can find here the result of the refined NER based on different metrics
 ```
 
 
-Moreover, you can find the automatic classification of observational sentences in Kepler's book "Astronomia nova" using state of the art machine learning methods and NER.
+Moreover, you can find an initial automatic classification of observational sentences in Kepler's book "Astronomia nova" using state of the art machine learning methods and NER.
 ![WORDCLUD](https://user-images.githubusercontent.com/43270094/65960891-4d591380-e40a-11e9-8fce-331950f18abe.jpg)
 
 
