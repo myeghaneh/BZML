@@ -12,19 +12,19 @@ from sklearn.model_selection import KFold
 from sklearn.metrics import roc_curve, roc_auc_score , auc
 
 
-
-
-def Color_Confusion_Matrix(y, y_test, y_pred):
+def Colorful_Confusion_Matrix(y, y_test, y_pred):
     cm=confusion_matrix(y_test, y_pred)
     l=len(set(y))
     df_cm = pd.DataFrame(cm, range(l), range(l))
-    sns.set(font_scale=1.4)
-    sns.heatmap(df_cm,cmap="Blues", annot=True,annot_kws={"size": 16},fmt='g', vmin=0, vmax=20000)
+    ax=sns.heatmap(df_cm,cmap="Blues", annot=True,annot_kws={"size": 16})
+    bottom, top = ax.get_ylim()
+    ax.set_ylim(bottom + 0.5, top - 0.5)
     plt.ylabel('True label');
     plt.xlabel('Predicted label');
     plt.title("Confusion Matrix", size = 16)
     plt.savefig('CM_Test_01.png')
     
+
 
 def plot_roc_curve(fpr, tpr,AUC):  
     plt.plot(fpr, tpr, color='orange', label='ROC')
@@ -34,6 +34,7 @@ def plot_roc_curve(fpr, tpr,AUC):
     plt.title('Receiver Operating Characteristic (ROC) Curve with AUC {:.3f}'.format(AUC))
     plt.legend()
     plt.show()
+    plt.savefig('roc.png')
     
 def plot_pr(recall,precision):
     auc_score = auc(recall, precision)
@@ -42,7 +43,9 @@ def plot_pr(recall,precision):
     plt.xlabel('Recall')
     plt.ylabel('Precision')
     plt.title('Recall vs Precision Curve with AUC {:.3f}'.format(auc_score))
+    plt.savefig('PR.png')
     plt.show()
+    
     print('AUC: %.3f' % auc_score)
     
 def cross_validation_accuracy(clf,X,y,cv):
