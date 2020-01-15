@@ -87,14 +87,14 @@ Refined Name Enitiy Recognition (NER) by A Customized SpaCy Model and Pattern
 \end_layout
 
 \begin_layout Author
-Moha Yeghaneh,October 2019
+Moha Yeghaneh
 \end_layout
 
 \begin_layout TitleGraphic
 \begin_inset Graphics
 	filename C:/Projects_28_06/notebooks/yeghaneh/BZML_OCT/images/annotation_update_bert_06.JPG
 	lyxscale 30
-	scale 10
+	scale 7
 
 \end_inset
 
@@ -112,12 +112,12 @@ status open
 
 \begin_layout Plain Layout
 
-Presentation 
+Presentation
 \end_layout
 
 \end_inset
 
-Contents
+ Contents
 \end_layout
 
 \begin_layout Standard
@@ -131,7 +131,7 @@ LatexCommand tableofcontents
 
 \end_deeper
 \begin_layout Section
-Introduction 
+Introduction
 \end_layout
 
 \begin_layout Frame
@@ -165,7 +165,7 @@ status open
 \begin_layout Frame
 
 \size small
-The Aim of this presentation is to show the initial result and direction
+The aim of this presentation is to show the initial result and direction
  of our research.
  Here is the main area that we have worked:
 \end_layout
@@ -296,19 +296,6 @@ Data Publishing.
 
 \end_layout
 
-\begin_layout Itemize
-\paragraph_spacing onehalf
-\noindent
-
-\series bold
-\size small
-Toward Relation 
-\size default
-Extraction
-\size small
-!
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -353,10 +340,6 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -394,7 +377,7 @@ status collapsed
 status open
 
 \begin_layout Plain Layout
-Purpose of this Presentation
+Purpose of this presentation
 \end_layout
 
 \end_inset
@@ -412,7 +395,7 @@ In this report we want to communicate what we have already done including:
 \series bold
 Prepossessing
 \series default
- and preparation of text data for classification
+ and preparation of text data for classification.
 \end_layout
 
 \begin_layout Itemize
@@ -420,24 +403,24 @@ Information extraction in an informative and
 \series bold
  interactive 
 \series default
-way
+way.
 \end_layout
 
 \begin_layout Itemize
-Introducing a refined named entity recognition (NER) model using deep learning
+Introducing a refined named entity recognition (NER) model using deep learning.
 \end_layout
 
 \begin_layout Itemize
-evaluation of model using gold standard data
+evaluation of model using gold standard data.
 \end_layout
 
 \begin_layout Itemize
-Using machine learning and deep learning methods for text classification
+Using machine learning and deep learning methods for text classification.
 \end_layout
 
 \begin_layout Itemize
 Proposing some ideas for the future work toward relation extraction and
- causal inference
+ causal inference.
 \end_layout
 
 \end_deeper
@@ -484,7 +467,7 @@ Corpus includes 169231 tokens (roughly speaking; words) and 9513 unique
 \end_layout
 
 \begin_layout Itemize
-lexical_diversity which shows lexical richness is 1.2
+Lexical_diversity which shows lexical richness is 1.2
 \end_layout
 
 \begin_layout Standard
@@ -537,9 +520,9 @@ Feeling the integrated data by NER and more attribute as dataframe
 \end_layout
 
 \begin_layout Frame
-here you can see first 10 sentences with different attribute that has been
+Here you can see first 10 sentences with different attribute that has been
  add by our and can be used later for classification,relation extraction
- ...
+ and...
 \end_layout
 
 \begin_layout Frame
@@ -551,22 +534,19 @@ here you can see first 10 sentences with different attribute that has been
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Float figure
-wide false
-sideways false
 status open
 
 \begin_layout Plain Layout
-\align center
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../Documents/Former_projects/phasmafood/Reports/2019/Reports/02.png
-	lyxscale 20
-	scale 27
-	rotateOrigin center
+	filename C:/Projects_28_06/notebooks/yeghaneh/BZML_OCT/images/ExtObs02.JPG
+	scale 10
 
 \end_inset
 
@@ -575,6 +555,10 @@ status open
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -593,6 +577,13 @@ status open
 \end_layout
 
 \begin_layout Frame
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
 
 \end_layout
 
@@ -601,7 +592,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Feeling the Data through Word Cloud
+Wordcloud
 \end_layout
 
 \end_inset
@@ -615,12 +606,12 @@ Feeling the Data through Word Cloud
 
 \begin_deeper
 \begin_layout Itemize
-You can find here the word cloud of the whole book and by chapter
+You can find here the word cloud of the whole book and by chapter.
 \end_layout
 
 \begin_layout Itemize
 It can give us some simple initial and simple intution which can be used
- for the further text analysis
+ for the further text analysis.
 \end_layout
 
 \begin_layout Standard
@@ -631,35 +622,17 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename C:/Projects_28_06/notebooks/yeghaneh/BZML_OCT/images/bzml/WordCloudChapter18.png
-	lyxscale 20
-	width 10cm
-	height 4cm
-	rotateOrigin centerTop
+	filename C:/Projects_28_06/notebooks/yeghaneh/BZML_OCT/images/word001.png
+	lyxscale 5
+	scale 5
+	rotateOrigin center
 
 \end_inset
 
 
 \end_layout
 
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename FrequencyplotAstronomia.png
-	lyxscale 20
-	width 10cm
-	height 4cm
-	rotateOrigin centerTop
-
-\end_inset
-
 
 \end_layout
 
@@ -776,8 +749,8 @@ Training
 
 \begin_deeper
 \begin_layout Itemize
-A Bert model with100 iteration and batch size 16 has been used for NER classifca
-tion
+A model word representation Bert with100 iteration and batch size 16 has
+ been used for NER classifcation
 \end_layout
 
 \begin_layout Itemize
@@ -810,15 +783,6 @@ status open
 
 \end_deeper
 \begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Layer wise Relevant Propagation
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -826,7 +790,36 @@ Layer wise Relevant Propagation
 
 \end_layout
 
+\begin_layout Section
+Explicit Observation Extraction
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+An example form the book
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_deeper
+\begin_layout Itemize
+you can see here an example of explicit observation extraction.
+\end_layout
+
+\begin_layout Itemize
+moreover, you can find how the text has been structured.
+\end_layout
+
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -834,11 +827,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\align center
 \begin_inset Graphics
-	filename ../../../Documents/Former_projects/phasmafood/Reports/2019/Reports/LRP01.PNG
-	lyxscale 20
-	scale 40
+	filename C:/Projects_28_06/notebooks/yeghaneh/BZML_OCT/images/ExtObsPara02.JPG
+	lyxscale 50
+	scale 30
 	rotateOrigin center
 
 \end_inset
@@ -849,24 +841,9 @@ status open
 \end_inset
 
 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "key-1"
-literal "true"
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Data Publishing
 \end_layout
@@ -890,12 +867,12 @@ CitableClass
 
 \begin_deeper
 \begin_layout Itemize
-we have a developed a usefull framework citableclass that we can used in
+We have a developed a usefull framework citableclass that we can used in
  order to publich and use the data.
 \end_layout
 
 \begin_layout Itemize
-any user can have access to data with notebooks using DOI number 
+Any user can have access to data with notebooks using DOI number 
 \begin_inset Float figure
 wide false
 sideways false
@@ -903,9 +880,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../Documents/Former_projects/phasmafood/Reports/2019/Reports/06_Jan_Signfi.png
+	filename C:/Projects_28_06/notebooks/yeghaneh/BZML_OCT/images/bzml/zenodo.bmp
 	lyxscale 30
-	scale 40
+	scale 10
 
 \end_inset
 
@@ -965,7 +942,7 @@ Thank you for your time and feedbacks :)
 \series bold
 \size large
 \emph on
-Many thanks to both Stelios and Bendikt 
+Many thanks 
 \end_layout
 
 \begin_layout Frame
