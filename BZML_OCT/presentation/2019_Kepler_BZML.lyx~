@@ -86,10 +86,6 @@ Refined Name Enitiy Recognition (NER) by A Customized SpaCy Model and Pattern
  Rules of RegEx
 \end_layout
 
-\begin_layout Author
-Moha Yeghaneh
-\end_layout
-
 \begin_layout TitleGraphic
 \begin_inset Graphics
 	filename C:/Projects_28_06/notebooks/yeghaneh/BZML_OCT/images/annotation_update_bert_06.JPG
@@ -140,7 +136,7 @@ Introduction
 
 \begin_layout Frame
 \begin_inset Argument 2
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -305,6 +301,21 @@ Data Publishing.
 \end_layout
 
 \begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+
++-
+\end_layout
+
+\end_inset
+
+
 \begin_inset Argument 4
 status open
 
@@ -314,6 +325,10 @@ Difficulty and Challenges
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Frame
 
 \end_layout
 
@@ -328,21 +343,6 @@ Time consuming and tedious manual modification of annotation.
 
 \begin_layout Itemize
 Unavailability of training data and research paper in the domain.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -521,8 +521,8 @@ Feeling the integrated data by NER and more attribute as dataframe
 
 \begin_layout Frame
 Here you can see first 10 sentences with different attribute that has been
- add by our and can be used later for classification,relation extraction
- and...
+ add by our analysis and can be used later for classification,relation extractio
+n and...
 \end_layout
 
 \begin_layout Frame
@@ -541,17 +541,10 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename C:/Projects_28_06/notebooks/yeghaneh/BZML_OCT/images/ExtObs02.JPG
+	lyxscale 50
 	scale 10
-
-\end_inset
-
-
-\end_layout
 
 \end_inset
 
@@ -577,17 +570,11 @@ status open
 \end_layout
 
 \begin_layout Frame
-\begin_inset Newpage newpage
-\end_inset
-
 
 \end_layout
 
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Frame
+\begin_deeper
+\begin_layout Standard
 \begin_inset Argument 4
 status open
 
@@ -600,48 +587,22 @@ Wordcloud
 
 \end_layout
 
-\begin_layout Frame
-
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
 You can find here the word cloud of the whole book and by chapter.
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 It can give us some simple initial and simple intution which can be used
  for the further text analysis.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename C:/Projects_28_06/notebooks/yeghaneh/BZML_OCT/images/word001.png
-	lyxscale 5
-	scale 5
-	rotateOrigin center
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_deeper
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Frame
 
 \end_layout
@@ -900,6 +861,42 @@ status open
 \end_layout
 
 \begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+how can we have reuslable notebooks flies(env, requ...), there is some answers
+ like but it seems not perfect
+\end_layout
+
+\begin_layout Itemize
+find the best envirment to cooperate with (colab,binder,
+\end_layout
+
+\begin_layout Itemize
+find the best way to presnt the result in way that non-technical readers
+ could be able to go thorough the text and computational analysis (voila)
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Section
+
+\end_layout
+
+\begin_layout Frame
 \begin_inset Argument 4
 status open
 
@@ -939,10 +936,6 @@ Thank you for your time and feedbacks :)
 
 \begin_layout Frame
 
-\series bold
-\size large
-\emph on
-Many thanks 
 \end_layout
 
 \begin_layout Frame
