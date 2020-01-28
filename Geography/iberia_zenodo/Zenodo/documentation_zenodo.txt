@@ -1,0 +1,7 @@
+- title: "Ptolemy's catalogue of localities of the Iberian peninsula"
+
+- description: Extract of Ptolemy's geographical catalogue, covering the localities of the Iberian peninsula (Geography 2.4-2.6), based on the Greek text edited by [Stueckelberger2006], in the two main textual recensions of the work (Xi and Omega). The text and coordinates are taken from the 2006 edition of the Geography. The coordinates of the Xi recension follow the readings of the Vaticanus gr. 191, whether they are recorded in the main text or in the critical apparatus by the editors.
+
+- files
+-- OmegaStructure.json : Ptolemy's catalogue for the Iberian peninsula in the Omega recension of the Geography. The structure of the JSON files reproduces the structure of Ptolemy's text. 
+-- XiStructure.json : Ptolemy's catalogue for the Iberian peninsula in the Xi recension of the Geography. The structure of the JSON files reproduces the structure of Ptolemy's text. 
